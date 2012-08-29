@@ -23,7 +23,7 @@ Ext.application({
 
         // Initialize the main view
         Ext.Viewport.add({
-            xclass: 'NodelDir.view.Main'
+            xclass: 'NobelDir.view.Main'
         });
     },
 
