@@ -12,7 +12,7 @@ Ext.application({
         '144': 'resources/icons/Icon~ipad@2x.png'
     },
 
-    models: ['Laureates'],
+    models: ['Laureate'],
     stores: ['Laureates'],
     views: ['Main'],
     controllers: ['Application'],

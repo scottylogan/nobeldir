@@ -4,7 +4,7 @@ Ext.define('NobelDir.view.Laureates', {
 
     config: {
         title: 'Laureates',
-        cls: 'x-contacts',
+        cls: 'x-laureates',
 
         store: 'Laureates',
         itemTpl: [
