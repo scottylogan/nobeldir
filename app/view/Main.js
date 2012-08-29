@@ -15,7 +15,7 @@ Ext.define("NobelDir.view.Main", {
         },
 
         items: [
-            { xclass: 'laureates' }
+            { xtype: 'laureates' }
         ]
     }
 });

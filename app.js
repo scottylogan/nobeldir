@@ -1,8 +1,7 @@
 Ext.application({
     name: 'NobelDir',
 
-    phoneStartupScreen: 'resources/loading/Homescreen.jpg',
-    tabletStartupScreen: 'resources/loading/Homescreen~ipad.jpg',
+
 
     glossOnIcon: false,
     icon: {
@@ -18,8 +17,6 @@ Ext.application({
     controllers: ['Application'],
 
     launch: function() {
-        // Destroy the #appLoadingIndicator element
-        Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
         Ext.Viewport.add({
