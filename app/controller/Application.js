@@ -14,7 +14,7 @@ Ext.define('NobelDir.controller.Application', {
                 pop: 'onMainPop'
             },
 
-            contacts: {
+            laureates: {
                 itemtap: 'onLaureateSelect'
             },
         }
