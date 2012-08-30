@@ -7,6 +7,7 @@ Ext.define('NobelDir.view.laureate.Show', {
 		title: 'Details',
 		baseCls: 'x-show-laureate',
 		layout: 'vbox',
+		scrollable: true,
 
 		items: [
 			{
