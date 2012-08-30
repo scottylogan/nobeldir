@@ -5,7 +5,7 @@ Ext.define('NobelDir.view.Laureates', {
     config: {
         title: 'Laureates',
         cls: 'x-laureates',
-
+        grouped: true,
         store: 'Laureates',
         itemTpl: [
             '<div class="headshot" style="background-image:url(resources/images/headshots/{headshot});"></div>',
