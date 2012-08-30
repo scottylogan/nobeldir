@@ -7,12 +7,12 @@ Ext.define('NobelDir.model.Laureate', {
                 'lastName',
                 'year',
                 'category',
+                'displayCategory'
                 'shortBio',
-                'bio',
                 'bioUrl',
                 'headshot',
                 'photo'
         ]
-	},
+	}
 
 });

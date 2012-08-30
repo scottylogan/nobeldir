@@ -3,19 +3,14 @@ Ext.define("NobelDir.view.Main", {
     xtype: 'mainview',
 
     requires: [
-        'NobelDir.view.Laureates',
-        'NobelDir.view.laureate.Show'
+        'NobelDir.view.LaureateList',
+        'NobelDir.view.LaureateDetail'
     ],
 
     config: {
-        autoDestroy: false,
-
-        navigationBar: {
-            ui: 'sencha'
-        },
-
+    
         items: [
-            { xtype: 'laureates' }
+            { xtype: 'laureatelist' }
         ]
     }
 });

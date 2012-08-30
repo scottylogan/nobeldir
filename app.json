@@ -90,8 +90,7 @@
     "resources": [
         "resources/images",
         "resources/icons",
-        "resources/startup",
-        "laureates.json"
+        "resources/startup"
     ],
 
     /**
