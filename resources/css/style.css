@@ -1,0 +1,67 @@
+/* Default Style */
+body {
+	min-width: 15em;
+	width: 100%;
+	font: normal 100% Helvetica, Arial, sans-serif;
+}
+
+.laureateList {
+	min-width: 140px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+.shortLaureate {
+	float: left;
+	overflow: hidden;
+	width: 50%;
+	min-width: 48%;
+	padding: 0.5em;
+	margin: 0.5em;
+	min-width: 140px;
+	min-height: 15em;
+   	background-color: #f3efd8; 
+   	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddcf99), to(#f8f6ea));
+   	background-image: -webkit-linear-gradient(top, #ddcf99, #f8f6ea); 
+   	background-image:    -moz-linear-gradient(top, #ddcf99, #f8f6ea);
+   	background-image:     -ms-linear-gradient(top, #ddcf99, #f8f6ea);
+   	background-image:      -o-linear-gradient(top, #ddcf99, #f8f6ea);
+   	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+.shortLaureate a {
+	text-decoration: none;
+	color: black;
+}
+
+.shortLaureate h1 {
+	height: 2em;
+	color: #820000;
+}
+
+.shortLaureate p {
+	width: 50%;
+	float: left;
+	color: #585754;
+}
+
+.shortLaureate img {
+	float: right;
+	min-width: 68px;
+}
+
+@media screen and (min-width: 28.75em) {
+	.shortLaureate {
+		width: 33.33333%;
+	}
+}
+
+@media screen and (min-width: 40.5em) {
+	.shortLaureate {
+		width: 16.666667%;
+	}
+}
