@@ -4,7 +4,7 @@ Ext.define('NobelDir.view.laureate.Show', {
 	xtype: 'laureate-show',
 
 	config: {
-		title: '{firstName} {lastName}',
+		title: 'Details',
 		baseCls: 'x-show-laureate',
 		layout: 'vbox',
 
@@ -13,9 +13,9 @@ Ext.define('NobelDir.view.laureate.Show', {
 				id: 'content',
 				tpl: [
 					'<div class="top">',
-						'<div class="photo" style="background-image:url(resources/images/photos/{photo});"></div>',
+						'<div class="photo"><img src="resources/images/photos/{photo}"></div>',
 						'<div class="name">{firstName} {middleName} {lastName}<span>{category} {year}</span></div>',
-						'<div class="bio">{bio}</div>',
+						'<div class="bio">{shortBio}</div>',
 						'<div class="links">',
 							'<ul>',
 								'<li><a href="{bioUrl}">Nobel Bio</a></li>',
