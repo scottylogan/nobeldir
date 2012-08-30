@@ -1,7 +1,6 @@
 /* Default Style */
 body {
 	min-width: 15em;
-	width: 100%;
 	font: normal 100% Helvetica, Arial, sans-serif;
 }
 
@@ -26,7 +25,7 @@ body {
 	-webkit-border-radius: 10px;
 	border-radius: 10px; /* future proofing */
 	-khtml-border-radius: 10px; /* for old Konqueror browsers */
-        border-color: 2px solid red;
+    border-color: 2px solid red;
 }
 
 .shortLaureate a {
@@ -74,6 +73,6 @@ body {
 	.shortLaureate {
 		padding: 0.25em;
 		margin: 0.4em;
-		width: 23%;
+		width: 22%;
 	}
 }
