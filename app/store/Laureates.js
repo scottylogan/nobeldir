@@ -4,10 +4,10 @@ Ext.define('NobelDir.store.Laureates', {
 	config: {
 		model: 'NobelDir.model.Laureate',
 		autoLoad: true,
-		sorters: 'year',
+		sorters: 'displayCategory',
 		grouper: {
 			groupFn: function (record) {
-				return record.get('displayCategory');
+				return record.get('year');
 			}
 		},
 		proxy: {
