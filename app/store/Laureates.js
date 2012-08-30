@@ -3,7 +3,7 @@ Ext.define('NobelDir.store.Laureates', {
 
 	config: {
 		model: 'NobelDir.model.Laureate',
-		sorters: 'lastName',
+		sorters: 'year',
 		grouper: function (record) {
 			return record.get('displayCategory');
 		},
