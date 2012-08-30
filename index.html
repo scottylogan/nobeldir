@@ -1,62 +1,92 @@
-<!DOCTYPE HTML>
-<html manifest="" lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <title>NobelDir</title>
-    <style type="text/css">
-         /**
-         * Example of an initial loading indicator.
-         * It is recommended to keep this as minimal as possible to provide instant feedback
-         * while other resources are still being loaded for the first time
-         */
-        html, body {
-            height: 100%;
-            background-color: #1985D0
-        }
-
-        #appLoadingIndicator {
-            position: absolute;
-            top: 50%;
-            margin-top: -15px;
-            text-align: center;
-            width: 100%;
-            height: 30px;
-            -webkit-animation-name: appLoadingIndicator;
-            -webkit-animation-duration: 0.5s;
-            -webkit-animation-iteration-count: infinite;
-            -webkit-animation-direction: linear;
-        }
-
-        #appLoadingIndicator > * {
-            background-color: #FFFFFF;
-            display: inline-block;
-            height: 30px;
-            -webkit-border-radius: 15px;
-            margin: 0 5px;
-            width: 30px;
-            opacity: 0.8;
-        }
-
-        @-webkit-keyframes appLoadingIndicator{
-            0% {
-                opacity: 0.8
-            }
-            50% {
-                opacity: 0
-            }
-            100% {
-                opacity: 0.8
-            }
-        }
-    </style>
-    <!-- The line below must be kept intact for Sencha Command to build your application -->
-    <script id="microloader" type="text/javascript" src="sdk/microloader/development.js"></script>
-</head>
-<body>
-    <div id="appLoadingIndicator">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nobel Laureates</title>
+  </head>
+  <body>
+    <article id="arrow1972">
+      <a href="laureates/arrow1972.html">
+        <h1>Kenneth J. Arrow</h1>
+        <p>Economics, 1972</p>
+        <img src="resources/images/headshots/arrow1972.jpg">
+      </a>
+    </article>
+    <article id="berg1980">
+      <a href="laureates/berg1980.html">
+        <h1>Paul Berg</h1>
+        <p>Chemistry, 1980</p>
+        <img src="resources/images/headshots/berg1980.jpg">
+      </a>
+    </article>
+    <article id="chu1997">
+      <a href="laureates/chu1997.html">
+        <h1>Steven Chu</h1>
+        <p>Physics, 1997</p>
+        <img src="resources/images/headshots/chu1997.jpg">
+      </a>
+    </article>
+    <article id="laughlin1998">
+      <a href="laureates/laughlin1998.html">
+        <h1>Robert B. Laughlin</h1>
+        <p>Physics, 1998</p>
+        <img src="resources/images/headshots/laughlin1998.jpg">
+      </a>
+    </article>
+    <article id="osheroff1996">
+      <a href="laureates/osheroff1996.html">
+        <h1>Douglas Osheroff</h1>
+        <p>Physics, 1996</p>
+        <img src="resources/images/headshots/osheroff1996.jpg">
+      </a>
+    </article>
+    <article id="perl1995">
+      <a href="laureates/perl1995.html">
+        <h1>Martin Perl</h1>
+        <p>Physics, 1995</p>
+        <img src="resources/images/headshots/perl1995.jpg">
+      </a>
+    </article>
+    <article id="richter1976">
+      <a href="laureates/richter1976.html">
+        <h1>Burton Richter</h1>
+        <p>Physics, 1976</p>
+        <img src="resources/images/headshots/richter1976.jpg">
+      </a>
+    </article>
+    <article id="scholes1997">
+      <a href="laureates/scholes1997.html">
+        <h1>Myron Scholes</h1>
+        <p>Economics, 1997</p>
+        <img src="resources/images/headshots/scholes1997.jpg">
+      </a>
+    </article>
+    <article id="sharpe1990">
+      <a href="laureates/sharpe1990.html">
+        <h1>William F. Sharpe</h1>
+        <p>Economics, 1990</p>
+        <img src="resources/images/headshots/sharpe1990.jpg">
+      </a>
+    </article>
+    <article id="spence2001">
+      <a href="laureates/spence2001.html">
+        <h1>A. Michael Spence</h1>
+        <p>Economics, 2001</p>
+        <img src="resources/images/headshots/spence2001.jpg">
+      </a>
+    </article>
+    <article id="stiglitz2001">
+      <a href="laureates/stiglitz2001.html">
+        <h1>Joseph E. Stiglitz</h1>
+        <p>Economics, 2001</p>
+        <img src="resources/images/headshots/stiglitz2001.jpg">
+      </a>
+    </article>
+    <article id="taylor1990">
+      <a href="laureates/taylor1990.html">
+        <h1>Richard E Taylor</h1>
+        <p>Physics, 1990</p>
+        <img src="resources/images/headshots/taylor1990.jpg">
+      </a>
+    </article>
+  </body>
 </html>
