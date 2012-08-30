@@ -7,7 +7,7 @@ Ext.define('NobelDir.store.Laureates', {
 		sorters: 'year',
 		grouper: {
 			groupFn: function (record) {
-				return record.get('lastName').substr(0,1);
+				return record.get('displayCategory');
 			}
 		},
 		proxy: {

@@ -10,7 +10,7 @@ Ext.define('NobelDir.view.Laureates', {
         itemTpl: [
             '<div class="headshot" style="background-image:url(resources/images/headshots/{headshot});"></div>',
             '{firstName} {lastName}',
-            '<span>{category}, {year}</span>'
+            '<span>{displayCategory}, {year}</span>'
         ].join('')
     }
 });

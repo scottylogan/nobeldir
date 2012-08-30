@@ -14,7 +14,7 @@ Ext.define('NobelDir.view.laureate.Show', {
 				tpl: [
 					'<div class="top">',
 						'<div class="photo"><img src="resources/images/photos/{photo}"></div>',
-						'<div class="name">{firstName} {middleName} {lastName}<span>{category} {year}</span></div>',
+						'<div class="name">{firstName} {middleName} {lastName}<span>{displayCategory} {year}</span></div>',
 						'<div class="bio">{shortBio}</div>',
 						'<div class="links">',
 							'<ul>',
