@@ -7,7 +7,7 @@ Ext.define('NobelDir.model.Laureate', {
                 'lastName',
                 'year',
                 'category',
-                'displayCategory'
+                'displayCategory',
                 'shortBio',
                 'bioUrl',
                 'headshot',
