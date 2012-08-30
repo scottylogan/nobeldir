@@ -26,5 +26,12 @@ Ext.define('NobelDir.view.laureate.Show', {
 				].join('')
 			}
 		]
-	}
+	},
+
+    updateRecord: function(newRecord) {
+        if (newRecord) {
+            this.down('#content').setData(newRecord.data);
+        }
+    }
+
 });
