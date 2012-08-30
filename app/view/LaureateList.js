@@ -5,6 +5,7 @@ Ext.define('NobelDir.view.LaureateList', {
 
     config: {
         title: 'Nobel Laureates',
+        cls: 'x-laureates',
         grouped: true,
         store: 'Laureates',
         onItemDisclosure: true,

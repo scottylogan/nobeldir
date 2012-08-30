@@ -11,9 +11,9 @@ Ext.define('NobelDir.view.LaureateDetail', {
 
 		tpl: [
 			'<div class="top">',
-				'<div class="photo" style="background-image:url(resources/images/photos/{photo});"></div>',
 				'<div class="name">{firstName} {middleName} {lastName}<span>{displayCategory} {year}</span></div>',
-				'<div class="bio">{bio}</div>',
+				'<div class="photo"><img src="resources/images/photos/{photo}"></div>',
+				'<div class="bio">{shortBio}</div>',
 				'<div class="links">',
 					'<ul>',
 						'<li><a href="{bioUrl}">Nobel Bio</a></li>',

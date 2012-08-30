@@ -13,6 +13,16 @@ Ext.define('NobelDir.model.Laureate', {
                 'headshot',
                 'photo'
         ]
-	}
+	},
+
+    fullName: function() {
+        var d = this.data;
+        return [
+            d.firstName,
+            (!d.middleName ? "" : d.middleName),
+            d.lastName
+        ].join(" ");
+    }
+    
 
 });

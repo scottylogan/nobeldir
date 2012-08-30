@@ -7,7 +7,7 @@ Ext.define('NobelDir.controller.Application', {
         },
 
         control: {
-            'presidentlist': {
+            'laureatelist': {
                 disclose: 'showDetail'
             }
         }
