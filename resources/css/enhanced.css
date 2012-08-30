@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+.laureateList {
+    min-width: 140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.shortLaureate {
+    width: 12em;
+    padding: 0.5em;
+    margin: 0.5em;
+    float: left;
+}
