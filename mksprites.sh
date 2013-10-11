@@ -6,7 +6,7 @@ CSSDIR=resources/css
 GEOM_HEAD=68x86+0+0
 
 #montage -geometry ${GEOM_HEAD} ${IMGDIR}/headshots/*.jpg ${IMGDIR}/headshots.jpg
-num_images=`ls ${IMGDIR}/*.jpg|wc -l`
+num_images=`ls ${IMGDIR}/*.jpg|wc -l|sed 's/ //g'`
 geometry=`jpeginfo resources/images/headshots/*.jpg|\
   awk '
 BEGIN {
