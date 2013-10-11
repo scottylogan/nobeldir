@@ -8,10 +8,61 @@ body {
     margin: 0 auto;
 }
 
+.shortLaureate img {
+	width: 180px;
+}
+
 
 .shortLaureate {
-    width: 12em;
+    width: 24em;
     padding: 0.5em;
     margin: 0.5em;
     float: left;
+}
+
+.shortLaureate > a > p {
+  background-image: url(../images/photos.jpg);
+  background-repeat: no-repeat;
+  height: 277px;
+  padding-left: 200px;
+  margin-left: 10px;
+}
+
+#arrow1972 > a > p {
+  background-position: 0px 0px;
+}
+
+#berg1980 > a > p {
+  background-position: 0px -277px;
+}
+
+#chu1997 > a > p {
+  background-position: 0px -554px;
+}
+#laughlin1998 > a > p {
+  background-position: 0px -831px;
+}
+#osheroff1996 > a > p {
+  background-position: 0px -1108px;
+}
+#perl1995 > a > p {
+  background-position: 0px -1385px;
+}
+#richter1976 > a > p {
+  background-position: 0px -1662px;
+}
+#scholes1997 > a > p {
+  background-position: 0px -1939px;
+}
+#sharpe1990 > a > p {
+  background-position: 0px -2216px;
+}
+#spence2001 > a > p {
+  background-position: 0px -2493px;
+}
+#stiglitz2001 > a > p {
+  background-position: 0px -2770px;
+}
+#taylor1990 > a > p {
+  background-position: 0px -3047px;
 }
