@@ -39,14 +39,62 @@ body {
 
 .shortLaureate p {
 	color: #585754;
-        width: 50%;
-        float: left;
+  width: 50%;
+  float: left;
 }
 
 .shortLaureate img {
 	width: 68px;
-	padding: 0 1em 0 2.5em;
 }
+
+.shortLaureate > a > p {
+  background-image: url(../images/headshots.jpg);
+  background-repeat: no-repeat;
+  height: 86px;
+  padding-left: 86px;
+  margin-left: 10px;
+}
+
+#arrow1972 > a > p {
+  background-position: 0px 0px;
+}
+
+#berg1980 > a > p {
+  background-position: 0px -86px;
+}
+
+#chu1997 > a > p {
+  background-position: 0px -172px;
+}
+#laughlin1998 > a > p {
+  background-position: 0px -258px;
+}
+#osheroff1996 > a > p {
+  background-position: 0px -344px;
+}
+#perl1995 > a > p {
+  background-position: 0px -430px;
+}
+#richter1976 > a > p {
+  background-position: 0px -516px;
+}
+#scholes1997 > a > p {
+  background-position: 0px -602px;
+}
+#sharpe1990 > a > p {
+  background-position: 0px -688px;
+}
+#spence2001 > a > p {
+  background-position: 0px -774px;
+}
+#stiglitz2001 > a > p {
+  background-position: 0px -860px;
+}
+#taylor1990 > a > p {
+  background-position: 0px -946px;
+}
+
+
 
 @media screen and (min-width: 27em) {
 	.shortLaureate {
